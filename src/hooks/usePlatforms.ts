@@ -5,7 +5,7 @@ import apiClient from "../services/api-client";
 export interface Platform {
     id: number;
     name: string;
-    slut: string;
+    slug: string;
 }
 
 const usePlatforms = () => useQuery({
